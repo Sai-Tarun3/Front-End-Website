@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Enrollment Form</title>
+    
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.form-container {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, select, button {
+    width: 450px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f2f8f3;
+    color: #28a745;
+}
+
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Enroll in Our Training Program</h1>
+        <form id="enrollmentForm">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" min="0" max="9999999999"    required>
+
+            <label for="course">Select Course:</label>
+            <select id="course" name="course" required>
+                <option value="">--Select a Course--</option>
+                <option value="Full Stack">Full Stack</option>
+                <option value="Testing">Testing</option>
+                <option value="DevOps & Cloud Computing">DevOps & Cloud Computing</option>
+                <option value="AI & DataScience">AI & DataScience</option>
+                <option value="Data Analyst">Data Analyst</option>
+            </select>
+
+            <label for="startDate">Preferred Start Date:</label>
+            <input type="date" id="startDate" name="startDate" required>
+
+            <button type="submit">Enroll Now</button>
+        </form>
+    </div>
+
+    <script >
+    document.getElementById('enrollmentForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const phone = document.getElementById('phone').value;
+    const course = document.getElementById('course').value;
+    const startDate = document.getElementById('startDate').value;
+
+    if (name === '' || email === '' || phone === '' || course === '' || startDate === '') {
+        alert('Please fill out all required fields.');
+        return;
+    }
+
+    alert(`Thank you, ${name}! You have successfully enrolled in the ${course} course starting on ${startDate}.`);
+    
+    document.getElementById('enrollmentForm').reset();
+});
+    </script>
+</body>
+</html>

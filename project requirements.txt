@@ -1,0 +1,69 @@
+quality thought website style 
+sql school website design
+
+Course> Full Stack v
+	JavaFS	      PythonFS	.Net FS		MERN FS		MEAN FS
+	
+	Testing v
+	Selenium with Java	Selenium with Python   TOSCA	  Selenium C#
+
+	DevOps & Cloud Computing  v
+	AWS with Devops	AZURE with Devops	   GCP with Devops
+	
+	AI & Data Science  v
+	Tableau	PowerBI	AI/ML	Python	SQL
+
+	Data Analyst  v
+	Excel & Advanced Excel 	SQL Query	PowerBI/Tableau	Python
+
+Services  v
+	Corporate training
+	Classroom training
+	Campus training
+Resources  v
+	Course Material
+	Video Lectures
+	Intern Q/A
+	Careers
+Placements  v
+	Apply for jobs
+	Alumni
+
+after Enroll 
+give a box and insert marquee tag here display be Companies logos 
+
+Give h1 tag with msg "Trending courses" with side arrows
+<--      	course img1	course img2	course img3    	-->
+ 
+after that give h1 tag with msg "About  Arun IT"
+some matter  and 		right side img
+
+after that give h1 tag with msg "Training mode"
+left img 		some mater 
+
+after that here display box with 
+experience years	enrolled	Quality course
+
+after that h1 tag with msg "Why Choose Us"
+sir will give this display it as follows:
+----	----
+----	----
+----	----
+
+Display here Register button(big size)
+
+here display some reviews as follows:(with side arrow buttons)
+name		name
+     review	>           <     review	>
+ 
+Down page of website here display as follows:
+Company(underline text)	Links(underline text)	     Services(underline text)	ContactUs(underline text)
+display as per the image provided
+
+by clicking img or text then it should redirect to new page 
+h1 tag with msg "Course Details"
+it should be displayed as "naresh it course page"
+
+display here Logo 
+
+here screenshot 318 & 315 tags wiil be added

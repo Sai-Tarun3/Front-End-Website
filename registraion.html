@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        padding: 20px;
+    }
+
+    .form-container {
+        max-width: 400px;
+        margin: auto;
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 8px;
+    }
+
+    .input-container {
+        position: relative;
+        margin-bottom: 15px;
+    }
+
+    input {
+        width: 300px;
+        padding: 10px;
+        padding-right: 40px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .toggle-password {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 18px;
+        color: #007bff;
+        cursor: pointer;
+        transition: color 0.3s ease;
+    }
+
+    .toggle-password:hover {
+        color: #0056b3;
+    }
+
+    .button-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    button {
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer;
+        width: 48%;
+    }
+
+    button.submit-button {
+        background-color: #007bff;
+        color: white;
+    }
+
+    button.submit-button:hover {
+        background-color: #0056b3;
+    }
+
+    button.reset-button {
+        background-color: #954a4ad9;
+    }
+
+    button.reset-button:hover {
+        background-color: #f25e6c;
+    }
+
+    .error {
+        color: red;
+        margin-bottom: 15px;
+    }
+
+</style>
+
+</head>
+<body>
+
+    <div class="form-container">
+        <h1>Register</h1>
+        <form id="registrationForm" onsubmit="return validateForm()">
+            <div class="error" id="error-message"></div>
+
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <div class="input-container">
+                <input type="password" id="password" name="password" required>
+                <i class="fas fa-eye toggle-password" onclick="togglePassword('password')"></i>
+            </div>
+
+            <label for="confirmPassword">Confirm Password:</label>
+            <div class="input-container">
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+                <i class="fas fa-eye toggle-password" onclick="togglePassword('confirmPassword')"></i>
+            </div>
+
+            <div class="button-container">
+                <button type="submit" class="submit-button">Register</button>
+                <button type="button" class="reset-button" onclick="resetForm()">Reset</button>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        function togglePassword(fieldId) {
+            const passwordField = document.getElementById(fieldId);
+            const toggleIcon = passwordField.nextElementSibling;
+
+            if (passwordField.type === "password") {
+                passwordField.type = "text";
+                toggleIcon.classList.remove('fa-eye');
+                toggleIcon.classList.add('fa-eye-slash');
+            } else {
+                passwordField.type = "password";
+                toggleIcon.classList.remove('fa-eye-slash');
+                toggleIcon.classList.add('fa-eye');
+            }
+        }
+
+        function validateForm() {
+            const fullName = document.getElementById('fullName').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const password = document.getElementById('password').value;
+            const confirmPassword = document.getElementById('confirmPassword').value;
+            const gender = document.querySelector('input[name="gender"]:checked');
+            const errorMessage = document.getElementById('error-message');
+
+            let errors = [];
+
+            if (fullName === '') {
+                errors.push('Full Name is required.');
+            }
+
+            if (email === '') {
+                errors.push('Email Address is required.');
+            }
+
+            if (password === '') {
+                errors.push('Password is required.');
+            }
+
+            if (confirmPassword === '') {
+                errors.push('Confirm Password is required.');
+            }
+
+            if (password !== confirmPassword) {
+                errors.push('Passwords do not match.');
+            }
+
+            if (errors.length > 0) {
+                errorMessage.innerHTML = errors.join('<br>');
+                return false;
+            }
+            return true;
+        }
+
+        function resetForm() {
+            const form = document.getElementById('registrationForm');
+            form.reset();
+            document.getElementById('error-message').innerHTML = '';
+        }
+    </script>
+</body>
+</html>

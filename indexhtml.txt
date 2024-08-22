@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arun IT</title>
+    <link rel="stylesheet" href="./index.css"/>
+</head>
+<body>
+    <div class="arun-appli">
+        <div class="marquee-container"> 
+            <marquee width="100%" direction="left" height="50px" behaviour="scroll" scrollamount="5">
+                <span>For any queries related to Institute please contact <i class="bi bi-telephone-fill"></i> +917013425272</span>
+                <span style="margin-left: 70px;">For Feedback  <i class="bi bi-envelope-fill"></i> www.arunitbusiness@gmail.com</span>
+                <span style="margin-left: 70px;">For any queries related to Institute please contact <i class="bi bi-telephone-fill"></i> +917013425272</span>
+                <span style="margin-left: 70px;">For  Feedback  <i class="bi bi-envelope-fill"></i> www.arunitbusiness@gmail.com</span>
+                <span style="margin-left: 70px;">For any queries related to Institute please contact <i class="bi bi-telephone-fill"></i> +917013425272</span>
+                <span style="margin-left: 70px;">For  Feedback  <i class="bi bi-envelope-fill"></i> www.arunitbusiness@gmail.com</span>
+            </marquee>
+        </div>
+        <header class="header-container">
+            <div class="logo">
+                <a name="index1"><img src="https://img.lovepik.com/element/45006/8218.png_860.png" width="67px" height="67px" alt="ArunIT"></a>
+            </div>
+            <div class="nav-links">
+                <a href="#" style="color: blue; text-decoration: underline; text-underline-offset: 10px;">Home</a>
+                <a href="#index">About Us</a>
+                <div class="services-nav-link">
+                    <a href="#training">Services <i class="bi bi-caret-down-fill"></i></a>
+                    <div class="serives-nav-items-list">
+                        <a href="#">Corporate Training</a>
+                        <a href="#">Classroom Training</a>
+                        <a href="#">Campus Training</a>
+                    </div>
+                </div>
+                <div class="resources-nav-link">
+                    <a href="#resource">Resources <i class="bi bi-caret-down-fill"></i></a>
+                    <div class="resources-nav-items-list">
+                        <a href="#material">Course Material</a>
+                        <a href="#videos">Video Lectures</a>
+                        <a href="#inter">Interview Q/A</a>
+                        <a href="#contact">Careers</a>
+                    </div>
+                </div>
+                <div class="placements-nav-link">
+                    <a href="#">Placements <i class="bi bi-caret-down-fill"></i></a>
+                    <div class="placements-nav-items-list">
+                        <a href="#place">Apply for Jobs</a>
+                        <a href="#">Alumini</a>
+                    </div>
+                </div> 
+                <a href="#contact" class="cus">Contact Us</a>               
+                <a href="registraion.html" target="_blank">
+                    <button class="register-btn" type="button">Register</button>
+                  </a>                 
+            </div>
+        </header>
+        <div class="courses-header-container">
+            <div class="course-header">
+                <div class="full-stack">
+                    <a href="#" style="color: white;">Full Stack</a>
+                    <i class="bi bi-caret-down-fill"></i>
+                </div>
+                <div class="full-stack-list">
+                    <a href="#">Java Full Stack</a>
+                    <a href="#">Python Full Stack</a>
+                    <a href="#">.Net Full Stack</a>
+                    <a href="#">MERN Full Stack</a>
+                    <a href="#">MEAN Full Stack</a>
+                </div>
+            </div>
+            <div class="course-header">
+                <div class="testing">
+                    <a href="#" style="color: white;">Testing</a>
+                    <i class="bi bi-caret-down-fill"></i>
+                </div>
+                <div class="testing-list">
+                    <a href="#">Selinium with Java</a>
+                    <a href="#">Selenium with Python</a>
+                    <a href="#">TOSCA</a>
+                    <a href="#">Selenium with C#</a>
+                </div>    
+            </div>
+            <div class="course-header">
+                <div class="dev-col">
+                    <a href="#" style="color: white;">Devops & Cloud Computing</a>
+                    <i class="bi bi-caret-down-fill"></i>
+                </div>
+                <div class="dev-col-list">
+                    <a href="#">AWS with DevOps</a>
+                    <a href="#">AZURE with DevOps</a>
+                    <a href="#">GCP with DevOps</a>
+                </div>
+            </div>
+            <div class="course-header">
+                <div class="ai-data">
+                    <a href="#" style="color: white;">AI & Data Science</a>
+                    <i class="bi bi-caret-down-fill"></i>
+                </div>
+                <div class="ai-data-list">
+                    <a href="#">Tableau</a>
+                    <a href="#">PowerBI</a>
+                    <a href="#">AI/ML</a>
+                    <a href="#">Python</a>
+                    <a href="#">SQL</a>
+                </div>
+            </div>
+            <div class="course-header">
+                <div class="data-anl">
+                    <a href="#" style="color: white;">Data Analyst</a>
+                    <i class="bi bi-caret-down-fill"></i>
+                </div>
+                <div class="data-anl-list">
+                    <a href="#">Tableau/PowerBI</a>
+                    <a href="#">Excel & Advanced Excel</a>
+                    <a href="#">Python</a>
+                    <a href="#">SQL Query</a>
+                </div>
+            </div>
+        </div>
+        <div class="home" id="home">
+            <div class="home-desc">
+                <h1 style="width: 470px;">Project Oriented Training Services with 100% Hands-On</h1>
+                <div class="home-desc-content">
+                    <span><i class="bi bi-check2-circle"></i> Internship Program both Online & Offline</span>
+                    <span><i class="bi bi-check2-circle"></i> Job Oriented Courses</span>
+                    <span><i class="bi bi-check2-circle"></i> Certificate Courses</span>
+                    <span><i class="bi bi-check2-circle"></i> Interview Courses</span>                   
+                </div>
+                <a href="enroll.html" target="_blank">
+                    <button class="enroll-button" type="button">Enroll Now</button>
+                  </a>
+            </div>
+            <div class="home-img">
+                <img src="https://img.lovepik.com/element/45006/8218.png_860.png" alt="home-img" style="margin-right: 20px; width: 500px; height: 500px;"/>
+            </div>
+        </div>
+        <div class="list-of-companies">
+            <h1>Our Students Palced in</h1>
+            <marquee width="70%" direction="left" height="120px" behaviour= "scroll" scrollamount= "15" id="student-img">                
+            </marquee>
+        </div>
+        <div class="amount-container">
+            <div class="traning-container">
+                <h1>18<sup>+</sup></h1>
+                <span>Year of Training Experience</span>
+            </div>
+            <div class="traning-container">
+                <h1>30<sup>K</sup></h1>
+                <span>Learners Enrolled in SQL School Courses</span>
+            </div>
+            <div class="traning-container">
+                <h1>10<sup>+</sup></h1>
+                <span>Qualified Instructors</span>
+            </div>
+            <div class="traning-container">
+                <h1>20<sup>+</sup></h1>
+                <span>Quality Courses</span>
+            </div>
+        </div>
+        <h1 style="text-align: center; margin-bottom: 20px; margin-top: 20px;">Job Roles</h1>
+        <div class="job-roles-wrapper">
+            <div class="job-roles-container">   
+                <div class="job-role">
+                    <img src="https://cdn.prod.website-files.com/6344c9cef89d6f2270a38908/63862296680a877e33cb39f9_c4.webp" alt="home-img" style="margin-right: 20px;width: 100%; height: 100%;"/>
+                </div>
+                <div class="job-role">
+                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230612184257/Steps-of-manual-testing.jpg" alt="home-img" style="margin-right: 20px;width: 100%; height: 100%;"/>
+                </div>
+                <div class="job-role">
+                    <img src="https://infuse.it/wp-content/uploads/2021/03/test-automation-logos.png" alt="home-img" style="margin-right: 20px;width: 100%; height: 100%;"/>
+                </div>
+                <div class="job-role">
+                    <img src="https://stemta.com/wp-content/uploads/2023/09/Machine-Learning-Engineering-Jobs-2.jpg" alt="home-img" style="margin-right: 20px;width: 100%; height: 100%;"/>
+                </div>
+                <div class="job-role">
+                    <img src="https://miro.medium.com/v2/resize:fit:1400/1*iW95hu86bn_FXskUWh3f7A.jpeg" alt="home-img" style="margin-right: 20px;width: 100%; height: 100%;"/>
+                </div>
+                <div class="job-role">
+                    <img src="https://media.licdn.com/dms/image/D4D12AQEivHvmfkTdYQ/article-cover_image-shrink_720_1280/0/1709107792699?e=2147483647&v=beta&t=eWqkgGhW2TczIyEUnzDOAXQ5Vwb0Q02xwnolJUwMm0U" alt="home-img" style="margin-right: 20px;width: 100%; height: 100%;"/>
+                </div>
+                <div class="job-role">
+                    <img src="https://docs.cse.lehigh.edu/images/sql-developer-mac/sql-developer-mac04.png" alt="home-img" style="margin-right: 20px;width: 100%; height: 100%;"/>
+                </div>
+            </div>
+            <i class="bi bi-chevron-left left-scroll-icon"></i>
+            <i class="bi bi-chevron-right right-scroll-icon"></i>
+        </div>
+    <div class="bod">
+        <div class="about-section">
+            <div class="about-text">
+                <h1>About Us <a name="index"></a></h1>
+                <p>Arun IT is recognized for its strong focus on practical skills and 
+                   hands-on experience, ensuring that students are well-prepared to face 
+                   real-world challenges in the IT industry. The institute boasts a faculty 
+                   of experienced professionals who bring valuable industry insights into their 
+                   teaching. Its curriculum is regularly updated to keep pace with the latest industry 
+                   trends and technological advancements. Arun IT's commitment to delivering quality education 
+                   has earned it a reputation as a preferred choice for students and professionals aiming to upgrade 
+                   their skills and advance their careers in the competitive IT sector.</p>
+            </div>
+            <div class="about-image">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3F4jBacluYgwUDpBBy-J9GjgiRJokmuRWNA&s" alt="Training Image" style="width: 100%; height: 100%;">
+            </div>
+        </div>
+    </div>
+    <h1><a name="training"></a></h1>
+    <div class="train">
+        <div class="train-section">
+            <div class="train-text">
+                <h1 style="margin: 20px;">Services</h1>
+                <p>Arun IT offers a comprehensive range of IT training services 
+                   designed to equip students and professionals with the skills 
+                   needed to excel in the ever-evolving tech industry. The institute 
+                   provides courses across various domains, including programming languages 
+                   like Java, Python, and C++, web development using HTML, CSS, and JavaScript, 
+                   as well as advanced topics like data science, cloud computing, and software testing.
+                   Each course is carefully structured to balance theoretical knowledge with practical, 
+                   hands-on experience, allowing students to apply what they learn in real-world scenarios.
+                   Arun IT also offers specialized training in emerging technologies, ensuring that its students 
+                   stay ahead of industry trends. The faculty at Arun IT comprises seasoned professionals with 
+                   extensive industry experience, who are committed to delivering high-quality education and mentoring 
+                   students throughout their learning journey. The institute curriculum is continuously updated to 
+                   reflect the latest advancements in technology, ensuring that students receive relevant and up-to-date
+                   training. Additionally, Arun IT provides real-time project experience, helping students build a strong 
+                   portfolio that enhances their employability. Whether you are a beginner looking to start a career in IT 
+                   or a professional seeking to upgrade your skills, Arun IT offers the services and support to help you succeed.</p>
+            </div>
+            <div class="train-image">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3F4jBacluYgwUDpBBy-J9GjgiRJokmuRWNA&s" alt="Training Image" style="width: 100%; height: 100%;">
+            </div>
+        </div>
+    </div>
+    <div class="train">
+        <div class="train-section">
+            <div class="train-text">
+                <h1>Corporate Training</h1>
+                <p>Arun IT offers specialized corporate training programs tailored to meet 
+                   the specific needs of businesses and their employees. Understanding the rapid pace 
+                   of technological advancements, Arun IT designs these training programs to help organizations 
+                   stay competitive by equipping their workforce with the latest skills and knowledge in the IT domain.
+                   The corporate training services at Arun IT cover a broad range of topics, including programming languages, 
+                   web development, data science, cloud computing, and software testing, among others. Each training program is 
+                   customized to align with the company’s objectives, ensuring that the content is relevant and applicable to the 
+                   participants' roles within the organization. With a focus on practical application, Arun IT’s corporate training 
+                   emphasizes real-time project experience, enabling employees to apply new skills directly to their work. 
+                   The training is delivered by experienced industry professionals who bring a wealth of knowledge and real-world 
+                   expertise to the sessions. </p>
+            </div>
+            <div class="train-image">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3F4jBacluYgwUDpBBy-J9GjgiRJokmuRWNA&s" alt="Training Image" style="width: 100%; height: 100%;">
+            </div>
+        </div>
+    </div>
+    <div class="train">
+        <div class="train-section">
+            <div class="train-text">
+                <h1>Classroom Training</h1>
+                <p>Arun IT provides comprehensive classroom training designed to equip students 
+                   with in-depth knowledge and hands-on experience in various IT domains. The institute’s 
+                   classroom training programs cover a wide range of topics, including programming languages, 
+                   web development, data science, cloud computing, and software testing. Led by experienced industry 
+                   professionals, the classroom sessions are interactive and focus on practical application, ensuring 
+                   that students gain the skills necessary to excel in real-world scenarios. The curriculum is meticulously 
+                   crafted and regularly updated to reflect the latest industry trends and technologies, keeping students at 
+                   the forefront of the IT field. Arun IT’s classroom training emphasizes real-time project work, giving students 
+                   the opportunity to apply what they learn in a controlled, supportive environment. This approach ensures that graduates 
+                   are not only knowledgeable but also job-ready, making Arun IT a preferred choice for those looking to build a successful career in the IT industry.</p>
+            </div>
+            <div class="train-image">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3F4jBacluYgwUDpBBy-J9GjgiRJokmuRWNA&s" alt="Training Image" style="width: 100%; height: 100%;">
+            </div>
+        </div>
+    </div>
+    <div class="train">
+        <div class="train-section">
+            <div class="train-text">
+                <h1>Campus Training</h1>
+                <p>Arun IT offers specialized on-campus training programs tailored to 
+                    meet the needs of educational institutions and their students. These programs 
+                    are designed to bridge the gap between academic learning and industry requirements, 
+                    providing students with practical skills and real-world experience in various IT domains.
+                    The on-campus training at Arun IT includes courses in programming languages, web development, 
+                    data science, cloud computing, and software testing, among others. Delivered by industry-experienced 
+                    instructors, the training focuses on hands-on learning and real-time projects, ensuring that students 
+                    gain valuable insights and practical knowledge that can be directly applied in the workplace. Arun IT’s on-campus 
+                    training is flexible and can be customized to align with the specific needs of the institution, ensuring that students 
+                    are well-prepared to enter the competitive IT job market. This approach not only enhances the employability of students but 
+                    also helps institutions maintain a high standard of education.</p>
+            </div>
+            <div class="train-image">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3F4jBacluYgwUDpBBy-J9GjgiRJokmuRWNA&s" alt="Training Image" style="width: 100%; height: 100%;">
+            </div>
+        </div>
+    </div>
+    <h1><a name="resource"></a></h1>
+    <div class="resources">
+        <div class="resources-section">
+            <div class="resources-text">
+                <h1 style="margin: 20px;">Resources</h1>
+                <p>Arun IT is dedicated to providing its students with a comprehensive 
+                    set of resources that enhance their learning experience and support 
+                    their professional growth. The institute offers a rich array of educational materials, 
+                    including up-to-date course content, detailed study guides, and access to real-world projects. 
+                    These resources are carefully curated to align with the latest industry trends and technologies, 
+                    ensuring that students acquire relevant skills that are in demand in the IT sector.</p>
+            </div>
+            <div class="resources-image"><a name="material"></a>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3F4jBacluYgwUDpBBy-J9GjgiRJokmuRWNA&s" alt="Training Image" style="width: 100%; height: 100%;">
+            </div>
+        </div>
+    </div>
+<h1 class="cou">Course Material</h1>
+            <div class="tab">
+                <table>
+                    <tr class="text-center">
+                        <th>SNo.</th>
+                        <th>Topics</th>
+                        <th>About Topic</th>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>1</td>
+                        <td>Java</td>
+                        <td><a href="https://www.w3schools.com/java/default.asp">Read more</a></td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>2</td>
+                        <td>Python</td>
+                        <td><a href="https://www.w3schools.com/python/default.asp">Read more</a></td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>3</td>
+                        <td>.Net</td>
+                        <td><a href="https://www.tutorialspoint.com/dotnet_core/index.htm">Read more</a></td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>4</td>
+                        <td>MERN</td>
+                        <td><a href="https://www.geeksforgeeks.org/mern-stack/">Read more</a></td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>5</td>
+                        <td>MEAN</td>
+                        <td><a href="https://www.geeksforgeeks.org/introduction-to-mean-stack/">Read more</a></td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>6</td>
+                        <td>Automation Testing</td>
+                        <td><a href="https://www.javatpoint.com/automation-testing">Read more</a></td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>7</td>
+                        <td>Manual Testing</td>
+                        <td><a href="https://www.javatpoint.com/manual-testing">Read more</a></td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>8</td>
+                        <td>TOSCA</td>
+                        <td><a href="https://www.softwaretestinghelp.com/tosca-automation-tool/">Read more</a></td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>9</td>
+                        <td>Selenium with Java</td>
+                        <td><a href="https://www.geeksforgeeks.org/selenium-with-java-tutorial/">Read more</a></td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>10</td>
+                        <td>Selenium with Python</td>
+                        <td><a href="https://www.geeksforgeeks.org/selenium-python-tutorial/">Read more</a></td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>11</td>
+                        <td>Selenium with C#</td>
+                        <td><a href="https://www.javatpoint.com/selenium-csharp">Read more</a></td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>12</td>
+                        <td>AWS with DevOps</td>
+                        <td><a href="https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/introduction-to-devops.html">Read more</a></td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>13</td>
+                        <td>AZURE with DevOps</td>
+                        <td><a href="https://www.geeksforgeeks.org/azure-devops-an-introduction/">Read more</a></td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>14</td>
+                        <td>GCP with DevOps</td>
+                        <td><a href="https://cloud.google.com/free/?utm_source=bing&utm_medium=cpc&utm_campaign=japac-IN-all-en-dr-bkws-all-super-trial-b-dr-1009882&utm_content=text-ad-none-none-DEV_c-CRE_-ADGP_Hybrid+%7C+BKWS+-+PHR+%7C+Txt+~+Application+Modernization_DevOps_google+devops_main-KWID_43700079472296255-kwd-71606491704337:loc-90&userloc_158279-network_o&utm_term=KW_google+devops&gclid=9b8bdf1d39281247121db9a238f97b1c&gclsrc=3p.ds&msclkid=9b8bdf1d39281247121db9a238f97b1c&hl=en">Read more</a></td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>15</td>
+                        <td>Tableau</td>
+                        <td><a href="https://www.geeksforgeeks.org/tableau-tutorial/">Read more</a></td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>16</td>
+                        <td>PowerBI</td>
+                        <td><a href="https://www.tutorialspoint.com/power_bi/index.htm"></a>Read more</td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>17</td>
+                        <td>SQL</td>
+                        <td><a href="https://www.geeksforgeeks.org/sql-tutorial/">Read more</a></td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>18</td>
+                        <td>Excel & Advanced Excel</td>
+                        <td><a href="https://www.tutorialspoint.com/advanced_excel/index.htm">Read more</td>
+                    </tr>
+                </table>
+            </div>
+            <a name="videos"></a>
+            <h1 style="text-align: center;margin-top: 20px; margin-bottom: 20px;">Video Courses</h1>
+            <div class="video-container">
+                <div class="video-item">
+                    <iframe src="https://youtu.be/qRnxQFh5_wM?si=wp7GZjaOFHPMX1Mb" allowfullscreen></iframe>
+                    <caption>Java</caption>
+                </div>
+                <div class="video-item">
+                    <iframe src="https://youtu.be/qRnxQFh5_wM?si=wp7GZjaOFHPMX1Mb" allowfullscreen></iframe>
+                    <caption>Python</caption>
+                </div>
+                <div class="video-item">
+                    <iframe src="https://youtu.be/qRnxQFh5_wM?si=wp7GZjaOFHPMX1Mb" allowfullscreen></iframe>
+                    <caption>Testing</caption>
+                </div>
+                <div class="video-item">
+                    <iframe src="https://youtu.be/qRnxQFh5_wM?si=wp7GZjaOFHPMX1Mb" allowfullscreen></iframe>
+                    <caption>DevOps</caption>
+                </div>
+                <div class="video-item">
+                    <iframe src="https://youtu.be/qRnxQFh5_wM?si=wp7GZjaOFHPMX1Mb" allowfullscreen></iframe>
+                    <caption>SQL</caption>
+                </div>
+                <div class="video-item">
+                    <iframe src="https://youtu.be/qRnxQFh5_wM?si=wp7GZjaOFHPMX1Mb" allowfullscreen></iframe>
+                    <caption>AI/ML</caption>
+                </div>
+                <div class="video-item">
+                    <iframe src="https://youtu.be/qRnxQFh5_wM?si=wp7GZjaOFHPMX1Mb" allowfullscreen></iframe>
+                    <caption>PowerBI</caption>
+                </div>
+                <div class="video-item">
+                    <div style="text-align: center;">
+                        <iframe src="https://youtu.be/qRnxQFh5_wM?si=wp7GZjaOFHPMX1Mb" allowfullscreen></iframe>
+                        <p>Excel</p>
+                    </div>
+                </div>
+            </div>
+            <a name="inter"></a>
+            <h1 style="text-align: center; margin: 20px;">Interview Q/A</h1>
+            <div class="quest">
+                <table>
+                    <tr style="text-align: center;">
+                        <th>SNo.</th>
+                        <th>Topics</th>
+                        <th>Q/A</th>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>1</td>
+                        <td>Java</td>
+                        <td><a href="https://www.w3schools.com/java/default.asp">Read more</a></td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>2</td>
+                        <td>Python</td>
+                        <td><a href="https://www.w3schools.com/python/default.asp">Read more</a></td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>3</td>
+                        <td>.Net</td>
+                        <td><a href="https://www.tutorialspoint.com/dotnet_core/index.htm">Read more</a></td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>4</td>
+                        <td>MERN</td>
+                        <td><a href="https://www.geeksforgeeks.org/introduction-to-mern-stack/"></a>Read more</td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>5</td>
+                        <td>MEAN</td>
+                        <td><a href="https://www.geeksforgeeks.org/introduction-to-mean-stack/"></a>Read more</td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>6</td>
+                        <td>Automation Testing</td>
+                        <td><a href="https://www.javatpoint.com/automation-testing"></a>Read more</td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>7</td>
+                        <td>Manual Testing</td>
+                        <td><a href="https://www.javatpoint.com/manual-testing"></a>Read more</td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>8</td>
+                        <td>TOSCA</td>
+                        <td><a href="https://www.softwaretestinghelp.com/tosca-automation-tool/"></a>Read more</td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>9</td>
+                        <td>Selenium with Java</td>
+                        <td><a href="https://www.geeksforgeeks.org/selenium-with-java-tutorial/">Read more</a></td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>10</td>
+                        <td>Selenium with Python</td>
+                        <td><a href="https://www.geeksforgeeks.org/selenium-python-tutorial/">Read more</a></td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>11</td>
+                        <td>Selenium with C#</td>
+                        <td><a href="https://www.javatpoint.com/selenium-csharp">Read more</a></td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>12</td>
+                        <td>AWS with DevOps</td>
+                        <td><a href="https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/introduction-to-devops.html"></a>Read more</td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>13</td>
+                        <td>AZURE with DevOps</td>
+                        <td><a href="https://www.geeksforgeeks.org/azure-devops-an-introduction/"></a>Read more</td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>14</td>
+                        <td>GCP with DevOps</td>
+                        <td><a href="https://cloud.google.com/free/?utm_source=bing&utm_medium=cpc&utm_campaign=japac-IN-all-en-dr-bkws-all-super-trial-b-dr-1009882&utm_content=text-ad-none-none-DEV_c-CRE_-ADGP_Hybrid+%7C+BKWS+-+PHR+%7C+Txt+~+Application+Modernization_DevOps_google+devops_main-KWID_43700079472296255-kwd-71606491704337:loc-90&userloc_158279-network_o&utm_term=KW_google+devops&gclid=9b8bdf1d39281247121db9a238f97b1c&gclsrc=3p.ds&msclkid=9b8bdf1d39281247121db9a238f97b1c&hl=en"></a>Read more</td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>15</td>
+                        <td>Tableau</td>
+                        <td><a href="https://www.geeksforgeeks.org/tableau-tutorial/"></a>Read more</td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>16</td>
+                        <td>PowerBI</td>
+                        <td><a href="https://www.tutorialspoint.com/power_bi/index.htm"></a>Read more</td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>17</td>
+                        <td>SQL</td>
+                        <td><a href="https://www.geeksforgeeks.org/sql-tutorial/"></a>Read more</td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>18</td>
+                        <td>Excel & Advanced Excel</td>
+                        <td><a href="https://www.tutorialspoint.com/advanced_excel/index.htm"></a>Read more</td>
+                    </tr>
+                </table>
+            </div>        
+            <h1 style="text-align: center; margin: 20px;">Our Trainers</h1>
+    <div>
+        <div class="table-container">
+            <div class="table-options">
+                <label for="entries">Show 
+                    <select id="entries" onchange="updateEntries()">
+                        <option value="10">10</option>
+                        <option value="25">25</option>
+                        <option value="45" selected>45</option>
+                        <option value="100">100</option>
+                    </select>
+                    entries
+                </label>
+                <label for="search">Search: 
+                    <input type="text" id="search" onkeyup="searchTable()" placeholder="Search...">
+                </label>
+            </div>
+            <table id="courseTable">
+                <thead>
+                    <tr>
+                        <th>Course</th>
+                        <th>Faculty</th>
+                        <th>Date</th>
+                        <th>Time (IST)</th>
+                        <th>Payment</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Java Full Stack</td>
+                        <td>Mr. Chakravarthi</td>
+                        <td>9th Aug</td>
+                        <td>9:00 AM</td>
+                        <td><a href="registraion.html" class="register-link" target="_blank">Register Now</a></td>
+                    </tr>
+                    <tr>
+                        <td>Python Full Stack</td>
+                        <td>Kiran</td>
+                        <td>12th sep</td>
+                        <td>10:00 AM</td>
+                        <td><a href="registraion.html" class="register-link"target="_blank">Register Now</a></td>
+                    </tr>
+                    <tr>
+                        <td>.Net Full Stack</td>
+                        <td>Arun</td>
+                        <td>9th sep</td>
+                        <td>11:00 AM</td>
+                        <td><a href="registraion.html" class="register-link"target="_blank">Register Now</a></td>
+                    </tr>
+                    <tr>
+                        <td>MERN Full Stack</td>
+                        <td>Chaitanya</td>
+                        <td>9th sep</td>
+                        <td>1:00 PM</td>
+                        <td><a href="registraion.html" class="register-link"target="_blank">Register Now</a></td>
+                    </tr>
+                    <tr>
+                        <td>MEAN Full Stack</td>
+                        <td>Tarun</td>
+                        <td>9th sep</td>
+                        <td>2:00 PM</td>
+                        <td><a href="registraion.html" class="register-link"target="_blank">Register Now</a></td>
+                    </tr>
+                    <tr>
+                        <td>Selenium with Java</td>
+                        <td>Venkat</td>
+                        <td>9th sep</td>
+                        <td>3:00 PM</td>
+                        <td><a href="registraion.html" class="register-link"target="_blank">Register Now</a></td>
+                    </tr>
+                    <tr>
+                        <td>Selenium with Python</td>
+                        <td>Praneeth</td>
+                        <td>9th sep</td>
+                        <td>4:00 PM</td>
+                        <td><a href="registraion.html" class="register-link"target="_blank">Register Now</a></td>
+                    </tr>
+                    <tr>
+                        <td>TOSCA</td>
+                        <td>Bhanu</td>
+                        <td>9th sep</td>
+                        <td>6:00 PM</td>
+                        <td><a href="registraion.html" class="register-link"target="_blank">Register Now</a></td>
+                    </tr>
+                    <tr>
+                        <td>Selenium with C#</td>
+                        <td>Bhaskar</td>
+                        <td>9th sep</td>
+                        <td>7:00 PM</td>
+                        <td><a href="registraion.html" class="register-link"target="_blank">Register Now</a></td>
+                    </tr>
+                    <tr>
+                        <td>AWS with DevOps</td>
+                        <td>Vikram</td>
+                        <td>9th sep</td>
+                        <td>8:00 PM</td>
+                        <td><a href="registraion.html" class="register-link"target="_blank">Register Now</a></td>
+                    </tr>
+                    <tr>
+                        <td>AZURE with DevOps</td>
+                        <td>Sai Kiran</td>
+                        <td>9th sep</td>
+                        <td>9:30 PM</td>
+                        <td><a href="registraion.html" class="register-link"target="_blank">Register Now</a></td>
+                    </tr>
+                    <tr>
+                        <td>GCP with DevOps</td>
+                        <td>Mr. Kishan sir</td>
+                        <td>9th sep</td>
+                        <td>10:00 PM</td>
+                        <td><a href="registraion.html" class="register-link"target="_blank">Register Now</a></td>
+                    </tr>
+                    <tr>
+                        <td>Tableau</td>
+                        <td>Navin kumar</td>
+                        <td>9th sep</td>
+                        <td>7:30 PM</td>
+                        <td><a href="registraion.html" class="register-link"target="_blank">Register Now</a></td>
+                    </tr>
+                    <tr>
+                        <td>PowerBI</td>
+                        <td>Mr. Mahesh Babu</td>
+                        <td>12th sep</td>
+                        <td>8:30 PM</td>
+                        <td><a href="registraion.html" class="register-link"target="_blank">Register Now</a></td>
+                    </tr>
+                    <tr>
+                        <td>AI/ML</td>
+                        <td>Sravya</td>
+                        <td>12th sep</td>
+                        <td>9:00 PM</td>
+                        <td><a href="registraion.html" class="register-link"target="_blank">Register Now</a></td>
+                    </tr>
+                    <tr>
+                        <td>Python</td>
+                        <td>Srinu</td>
+                        <td>12th sep</td>
+                        <td>7:00 PM</td>
+                        <td><a href="registraion.html" class="register-link"target="_blank">Register Now</a></td>
+                    </tr>
+                    <tr>
+                        <td>SQL</td>
+                        <td>Ajay</td>
+                        <td>12th sep</td>
+                        <td>9:00 PM</td>
+                        <td><a href="registraion.html" class="register-link"target="_blank">Register Now</a></td>
+                    </tr>
+                    <tr>
+                        <td>Excel & Advanced Excel</td>
+                        <td>Sravan</td>
+                        <td>12th sep</td>
+                        <td>10:00 PM</td>
+                        <td><a href="registraion.html" class="register-link"target="_blank">Register Now</a></td>
+                    </tr>
+                    <tr>
+                        <td>SQL Query</td>
+                        <td>Arun</td>
+                        <td>12th sep</td>
+                        <td>5:00 PM</td>
+                        <td><a href="registraion.html" class="register-link"target="_blank">Register Now</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>    
+    </div>
+            <div style="display: flex; justify-content: center; align-items: center;padding: 10px; margin: 10px;">
+                <a href="#index1"><img src="https://img.lovepik.com/element/45006/8218.png_860.png" width="100px" height="100px" alt="ArunIT"></a>
+            </div>
+            <h1 style="text-align: center; margin-bottom: 20px; margin-top: 20px;">Reviews of ArunIT</h1>
+    <div class="reviews-wrapper">
+        <div class="reviews-container">
+            <div class="reviews">
+                <img src="https://www.shutterstock.com/image-photo/male-mugshot-passport-serious-portrait-260nw-2227218717.jpg" alt="home-img" style="margin-right: 20px;width: 100px; height: 100px;"/>
+                <img src="five-stars-customer-product-rating-review-icon-vector.jpg" width="100px" height="100px">
+                <p>Its a great institute for Java</p>
+            </div>
+            <div class="reviews">
+                <img src="https://www.shutterstock.com/image-photo/passport-photo-portrait-woman-on-260nw-2438031869.jpg" alt="home-img" style="margin-right: 20px;width: 90px; height: 90px;"/>
+                <img src="five-stars-customer-product-rating-review-icon-vector.jpg" width="100px" height="100px">
+                <p>Its a great institute for Python</p>
+            </div>
+            <div class="reviews">
+                <img src="https://i.pinimg.com/originals/c3/33/27/c333273fcfc3198e93df380c0cfc0437.jpg" alt="home-img" style="margin-right: 20px;width: 90px; height: 90px;"/>
+                <img src="five-stars-customer-product-rating-review-icon-vector.jpg" width="100px" height="100px">
+                <p>Its a great institute for Testing</p>
+            </div>
+            <div class="reviews">
+                <img src="https://i.pinimg.com/736x/18/af/35/18af351094a7337c8aec6f6b27c8aa14.jpg" alt="home-img" style="margin-right: 20px;width: 90px; height: 90px;"/>
+                <img src="five-stars-customer-product-rating-review-icon-vector.jpg" width="100px" height="100px">
+                <p>Its a great institute for ML</p>
+            </div>
+            <div class="reviews">
+                <img src="https://i.pinimg.com/736x/ed/18/91/ed189191dc22169f0e6786a85f068616.jpg" alt="home-img" style="margin-right: 20px;width: 90px; height: 90px;"/>
+                <img src="five-stars-customer-product-rating-review-icon-vector.jpg" width="100px" height="100px">
+                <p>Its a great institute for DataScience</p>
+            </div>
+            <div class="reviews">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSENWvbvEI2p5Rwhf-XOMJIr_iBrIg17pfvpA&s" alt="home-img" style="margin-right: 20px;width: 90px; height: 90px;"/>
+                <img src="five-stars-customer-product-rating-review-icon-vector.jpg" width="100px" height="100px">
+                <p>Its a great institute for AI</p>
+            </div>
+            <div class="reviews">
+                <img src="https://www.shutterstock.com/image-photo/passport-photo-latin-american-man-260nw-1851936004.jpg" alt="home-img" style="margin-right: 20px;width: 90px; height: 90px;"/>
+                <img src="five-stars-customer-product-rating-review-icon-vector.jpg" width="100px" height="100px">
+                <p>Its a great institute for SQL</p>
+            </div>
+            <div class="reviews">
+                <img src="https://thumbs.dreamstime.com/b/smiling-indian-man-looking-camera-mature-wearing-spectacles-portrait-middle-eastern-confident-businessman-office-195195079.jpg" alt="home-img" style="margin-right: 20px;width: 90px; height: 90px;"/>
+                <img src="five-stars-customer-product-rating-review-icon-vector.jpg" width="100px" height="100px">
+                <p>Its a great institute for Cloud Computinl̥ōg</p>
+            </div>
+            <i class="bi bi-chevron-left reviews-left-scroll-icon"></i>
+            <i class="bi bi-chevron-right reviews-right-scroll-icon"></i>
+        </div>
+    </div>
+    <br><br><br><br><br><br><br><a name="place"></a>
+    <h1 style="margin-left:20px;text-align: center;margin-bottom: 10px;">Placements</h1>
+    <h2 style="margin-left: 20px;">Apply for Jobs</h2>
+    <div class="input-group mb-3">
+        <input type="text" id="searchInput" class="form-control" placeholder="Search" aria-label="Search">
+        <span class="input-group-text">
+            <i class="bi bi-search"></i>
+        </span>
+    </div>
+    <div class="placement-container">
+        <table class="table table-bordered" style="text-align: center;">
+            <thead>
+                <tr>
+                    <th>SNo.</th>
+                    <th>Company Name</th>
+                    <th>Role</th>
+                    <th>Apply Links</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+                <tr>
+                    <td>1</td>
+                    <td>TCS</td>
+                    <td>Software Developer</td>
+                    <td><a href="https://ibegin.tcs.com/iBegin/jobs/search" target="_blank">Apply</a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Wipro</td>
+                    <td>SQL Developer</td>
+                    <td><a href="https://login.icims.com/u/login/identifier?state=hqFo2SBFaUJHRl8yX3F0OGppT3oweFFsZjh2c0c2ODdWd2lhQaFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIGdBWWdKY19WSmVqN2hXRmN6bkZVdUNUTllaTC1GUFgzo2NpZNkgS0pBOTVEeEhPUE5PNTZVYU5SZFJZNTdwem42Q01IY22lb3JnaWS0b3JnX1RUeWZTY3lkR3dOSm8xelinb3JnbmFtZaV3aXBybw" target="_blank">Apply</a></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Tech Mahindra</td>
+                    <td>AWS-DevOps Engineer</td>
+                    <td><a href="https://careers.techmahindra.com/Currentopportunity.aspx#Advance" target="_blank">Apply</a></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Accenture</td>
+                    <td>Automation Testing</td>
+                    <td><a href="https://www.accenture.com/in-en/careers/explore-careers/area-of-interest/technology-careers" target="_blank">Apply</a></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Infosys</td>
+                    <td>AI Engineer</td>
+                    <td><a href="https://www.infosys.com/careers/apply.html">Apply</a></td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Google</td>
+                    <td>Python Developer</td>
+                    <td><a href="https://www.google.com/about/careers/applications/" target="_blank">Apply</a></td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Virtusa</td>
+                    <td>Data Analyst</td>
+                    <td><a href="https://www.virtusa.com/careers" target="_blank">Apply</a></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>HCL</td>
+                    <td>Manual Testing</td>
+                    <td><a href="https://www.hcltech.com/digital-business/job-openings?utm_source=Google&utm_medium=Search&utm_campaign=DB+Search+-+8Aug&gad_source=1&gclid=CjwKCAjw8fu1BhBsEiwAwDrsjMDp4zUDPFg_NAuSQdgckSgS_WPEROhU4f18eYMzBTfyb2a6zFLSQxoCMWkQAvD_BwE" target="_blank">Apply</a></td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Cisco</td>
+                    <td>Azure DevOps</td>
+                    <td><a href="https://jobs.cisco.com/" target="_blank">Apply</a></td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Deloitte</td>
+                    <td>Associate Developer</td>
+                    <td><a href="https://jobsindia.deloitte.com/" target="_blank">Apply</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <h1 style="text-align: center;margin-bottom: 20px;">Alumini</h1>
+    <div class="alumini-container">
+        <div class="alum">
+            <img src="https://cdn3.f-cdn.com/contestentries/1802004/47457843/5f2d255ece9c5_thumb900.jpg" alt="home-img" style="margin-right: 20px;width: 100px; height: 100px;"/>
+            <p>Developer</p>
+            <p>TCS</p>
+        </div>
+        <div class="alum">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu2m8qFdJ0x_RSHUmQzbRbEU5dVY-LL3wFPQ&s" alt="home-img" style="margin-right: 20px;width: 100px; height: 100px;"/>
+            <p>Manual Testing</p>
+            <p>HCL</p>
+        </div>
+        <div class="alum">
+            <img src="https://engineering.purdue.edu/EngineeringManagement/alumni/profiles/recipients/yashashree-watkar.jpg" alt="home-img" style="margin-right: 20px;width: 100px; height: 100px;"/>
+            <p>Automation Testing</p>
+            <p>Tech Mahindra</p>
+        </div>
+        <div class="alum">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-DE0zNIO6FjpdKqFpJN3jj6zaQCbFGRU14elu7Q4Xp7ZxfOlByFswBswEPgqySjX4Nsk&usqp=CAU" alt="home-img" style="margin-right: 20px;width: 100px; height: 100px;"/>
+            <p>AI Engineer</p>
+            <p>Wipro</p>
+        </div>
+        <div class="alum">
+            <img src="https://www.sittechno.org/home-icons/photos/webpage-78.jpg" alt="home-img" style="margin-right: 20px;width: 100px; height: 100px;"/>
+            <p>Data Engineer</p>
+            <p>Cisco</p>
+        </div>
+        <div class="alum">
+            <img src="https://cmseducationorg.wordpress.com/wp-content/uploads/2019/01/shashwat-srivastava-gn-i-35-copies-pc-size.jpg" alt="home-img" style="margin-right: 20px;width: 100px; height: 100px;"/>
+            <p>Data Analyst</p>
+            <p>Infosys</p>
+        </div>
+        <div class="alum">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzRTDWXBII-sLtvL_s0gfbNvau1CnT2anlLh_YFVbbIpOoMJzqeuixY8aI9vBVl-_N4NM&usqp=CAU" alt="home-img" style="margin-right: 20px;width: 100px; height: 100px;"/>
+            <p>Developer</p>
+            <p>Virtusa</p>
+        </div>
+        <div class="alum">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE-qeOL2c7j2wEnTOKiMvA0EuJ0s5y2I66S2JPF8U5vszQ05nvRJgk-9e921GMBqVUKeo&usqp=CAU" alt="home-img" style="margin-right: 20px;width: 100px; height: 100px;"/>
+            <p>Manual Testing</p>
+            <p>Accenture</p>
+        </div>
+        <div class="alum">
+            <img src="https://dukaan.b-cdn.net/700x700/webp/projecteagle/images/0949be2c-426f-450f-ae6b-642dcd79d557.jpg" alt="home-img" style="margin-right: 20px;width: 100px; height: 100px;"/>
+            <p>Automation Testing</p>
+            <p>Deloitte</p>
+        </div>
+        <div class="alum">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeM_uVhUxuWMjezl0rV0KPIad0chGa4Pw6aA&s" alt="home-img" style="margin-right: 20px;width: 100px; height: 100px;"/>
+            <p>Machine Learning Engineer</p>
+            <p>Google</p>
+        </div>
+        <div class="alum">
+            <img src="https://i.pinimg.com/originals/6b/7e/d6/6b7ed698713c09ad9e6afc7dcb996a09.jpg" alt="home-img" style="margin-right: 20px;width: 100px; height: 100px;"/>
+            <p>Data Engineer</p>
+            <p>Cognizant</p>
+        </div>
+        <div class="alum">
+            <img src="https://cdn5.f-cdn.com/contestentries/1802004/47457843/5f2d237504e3f_thumbCard.jpg" alt="home-img" style="margin-right: 20px;width: 100px; height: 100px;"/>
+            <p>Data Analyst</p>
+            <p>L&T MindTree</p>
+        </div>
+    </div>
+        <a name="contact"><h1 class="con" style="margin-bottom: 20px;">Contact Us</h1></a>
+        <footer>
+            <div class="footer-content">
+                <div class="company">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Courses</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <h3>Links</h3>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">Certificates</a></li>
+                        <li><a href="#">Register Today</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="services">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Job Support</a></li>
+                        <li><a href="#">Custom Training</a></li>
+                        <li><a href="#">Corporate Training</a></li>
+                        <li><a href="#">Certification Training</a></li>
+                    </ul>
+                </div>
+                <div class="contact">
+                    <h3>Contact</h3>
+                    <p>www.arunit.com</p>
+                    <p>India: +91-7013425272</p>
+                    <p style="text-align: justify;margin-right: 20px;"><b>Address:</b> <br>Yella Reddy Guda Rd, Ameerpet, Yella Reddy Guda, Hyderabad, Telangana 500073</p>
+                    <a href="https://www.google.com/maps/place/Vasavi+MPM+Grand/@17.4342278,78.4425089,636m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3bcb90cee196174f:0xbf13004d14ee215d!8m2!3d17.4342227!4d78.4450838!16s%2Fg%2F1tdnzxyd?authuser=0&entry=ttu"><img src="Screenshot (320).png" style="margin-right: 20px;" alt="Map" class="map"></a>
+                </div>
+            </div>
+        </footer>
+        <footer id="copy">
+            <div class="footer-bottom">
+                <p>© 2024-2040 ARUNIT, Regd *: Sequelgate (I) Technologies Pvt. Ltd</p>
+                <div class="social-icons">
+                    <span style="margin-left: 20px;"><a href="#"><i class="bi bi-twitter-x"></i></a></span>
+                    <span style="margin-left: 20px;"><a href="#"><i class="bi bi-facebook"></i></a></span>
+                    <span style="margin-left: 20px;"><a href="#"><i class="bi bi-whatsapp"></i></a></span>
+                    <span style="margin-left: 20px;"><a href="#"><i class="bi bi-linkedin"></i></a></span>
+                    <span style="margin-left: 20px;"><a href="#"><i class="bi bi-instagram"></i></a></span>
+                    <span style="margin-left: 20px;margin-right: 10px;"><a href="#"><i class="bi bi-youtube"></i></a></span>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
